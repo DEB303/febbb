@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeybTypes</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="hearts-container"></div>
+  <!-- PAGE 1 -->
+  <div class="page active" id="page1">
+    <h1>Heloooo Kamustaa!</h1>
+    <p>Can I have your name?</p>
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button class="next-btn" onclick="goToPage2()">Continue ➜</button>
+  </div>
+
+  <!-- PAGE 2 -->
+  <div class="page" id="page2">
+    <h2 id="greeting"></h2>
+    <p>I hope you’re doing great today 🌸</p>
+    <button class="next-btn" onclick="goToPage3()">Next ➜</button>
+  </div>
+
+  <!-- PAGE 3 -->
+  <div class="page" id="page3">
+    <h2>Hello 😄</h2>
+    <p>I am <strong>DEYB</strong> hehe</p>
+    <p>There’s something I wish to tell you…</p>
+    <button class="next-btn" onclick="goToPage4()">Tell me ➜</button>
+  </div>
+
+  <!-- PAGE 4 -->
+  <div class="page" id="page4">
+    <h1>💘 Will you be my Valentine? 💘</h1>
+
+    <div class="btn-container">
+      <button class="yes-btn" id="yesBtn">YES 💖</button>
+      <button class="no-btn" id="noBtn">NO 😢</button>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
